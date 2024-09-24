@@ -1,0 +1,155 @@
+nav { 
+    padding: 5px;
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    position: sticky;
+    top: 0; 
+    background-color: black;
+    z-index: 1000; 
+    box-shadow: 0 8px 10px -4px gray;
+}
+
+.main-nav { 
+    width: 15%;
+    max-height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav img { 
+    max-width: 250px;
+    max-height: 60px;
+}
+
+.notif {
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: relative; 
+}
+
+.notif p {
+    font-size: 18px;
+    color: goldenrod;
+    font-weight: 1000;
+    padding: 1px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notif-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.main-nav button { 
+    display: none;
+}
+
+.main-nav button img { 
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+nav ul { 
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+nav ul li { 
+    margin: 0; 
+}
+
+nav ul li a { 
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    padding: 10px;
+}
+
+nav ul li:hover { 
+    color: #f87171;
+    cursor: pointer;
+}
+
+.notification-dropdown {
+    position: fixed;
+    top: 70px; 
+    right: 10px; 
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    z-index: 1000; 
+}
+
+.notif-ul { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.notif-ul li {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid gray; 
+    cursor: pointer;
+}
+
+.notif-ul img {
+    width: 40px;
+    height: 30px;
+}
+
+.notif-ul p {
+    font-weight: 500;
+}
+.none{ 
+    background: transparent;
+    color: white;
+    text-wrap: nowrap;
+    margin-top: 8px ;
+    
+}
+.none:hover { 
+    color: #f87171;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    nav { 
+        flex-direction: column;
+    }
+
+    .main-nav { 
+        width: 90%;
+    }
+
+    .main-nav button { 
+        display: block;
+    }
+
+    nav ul { 
+        flex-direction: column;
+        gap: 5px;
+    }
+}

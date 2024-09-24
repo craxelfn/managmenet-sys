@@ -1,0 +1,112 @@
+.team-task{ 
+    width: 100% ; 
+    overflow: hidden;
+    
+}
+.inputs {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #333333;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.data input , .data select ,.data textarea{
+    padding: 10px;
+    outline: none;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.data button {
+    background-color: #333333;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    padding-bottom: 40px;
+}
+
+.data button:hover {
+    background-color: #555555;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 10px;
+    margin: 8px 0;
+    cursor: move;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.item img { 
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #555555;
+}
+.valider{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding-bottom: 20px;
+}
+.valider input ,.valider textarea { 
+    width: 50%;
+}
+@media (max-width:500px) {
+    .box { 
+        width: 95%;
+    }
+    
+}
+.task-complete {
+    background-color: green;
+  }
+  
+  .task-in-progress {
+    background-color: gold;
+  }
+  

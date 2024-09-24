@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.work{ 
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 3%;
+    width: 100%;
+    overflow: hidden;
+}
+.content{
+    flex-basis: 100%;
+    width: 100%;
+}

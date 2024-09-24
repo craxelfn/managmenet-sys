@@ -1,0 +1,37 @@
+.task-detail-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .task-info {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .task-info p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .task-info strong {
+    color: #555;
+  }
+  
+  .task-user {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-align: right;
+    color: #666;
+  }
+  

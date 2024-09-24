@@ -1,0 +1,82 @@
+/* ReportComponent.css */
+
+.report-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .report-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .print-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .print-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .report-table th,
+  .report-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .report-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .report-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .report-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  .buff{
+    width: 150px;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px;
+    text-wrap: nowrap;
+  }
+  /* Print-specific styles */
+  @media print {
+    .print-button {
+      display: none; /* Hide the print button */
+    }
+  
+    .report-container {
+      padding: 0;
+      margin: 0;
+    }
+  
+    .report-title {
+      font-size: 1.5rem;
+    }
+  
+    .report-table {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,88 @@
+
+.container {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .panel-body {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100% !important;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+  
+  .column {
+    padding: 10px;
+  }
+  
+  .column.left {
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .column.right {
+    flex: 2;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    border: 5px solid #ddd;
+  }
+  
+  .ratings {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ratings li {
+    margin: 0 5px;
+  }
+  
+  .star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #f0c040;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .user-information {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-information td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .user-information strong {
+    font-weight: bold;
+  }
+  
+  .text-primary {
+    color: #007bff;
+  }
+  
+
+
+
+
+  /* error */
+/* From Uiverse.io by andrew-demchenk0 */ 

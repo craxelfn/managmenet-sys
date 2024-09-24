@@ -1,0 +1,68 @@
+import React from 'react' ; 
+import './Meet.css' ; 
+import mic_icon from '../../assets/voice-search.png' ;
+import flesh_icon from '../../assets/show-more.png';
+import phone_icon from '../../assets/phone.png' ;
+import profile_icon from '../../assets/person.png' ;
+import add_icon from '../../assets/add.png' ; 
+
+const Meet = () => {
+  return (
+    <div className='meet'>
+       
+        <div className="row">
+            <div className="ms-2 me-2 mt-1 vedio-space col-lg-8">
+                <div className='display mt-2'></div>
+                <div className='controle mt-1 mb-1'>
+                <div className='hide'>
+                    <img src={flesh_icon} alt="" />
+                </div>
+                <div className='main'>
+                <img src={mic_icon} alt="" />
+                <img src={mic_icon} alt="" />
+                <img src={mic_icon} alt="" />
+                <img src={mic_icon} alt="" />
+                </div>
+                <div className="end-call">
+                    <img src={phone_icon} alt="" />
+                </div>
+                </div>
+            </div>
+            <div className="users-space mt-1 col-lg-3 ms-2 me-2">
+                <div className='users-in'>
+                    <ul>
+                        <li>
+                            <img src={profile_icon} alt="" />
+                            <p>Oussama larkfi</p>
+                        </li>
+                        <li>
+                            <img src={profile_icon} alt="" />
+                            <p>Oussama larkfi</p>
+                        </li>
+                        <li>
+                            <img src={profile_icon} alt="" />
+                            <p>Oussama larkfi</p>
+                        </li>
+                        <li>
+                            <img src={profile_icon} alt="" />
+                            <p>Oussama larkfi</p>
+                        </li>
+                        <li>
+                            <img src={profile_icon} alt="" />
+                            <p>Oussama larkfi</p>
+                        </li>
+                    </ul>
+                </div>
+                <div className='add-user pt-2'>
+                    <img src={add_icon} alt="" />
+                    <p>Add user</p>
+                </div>
+            </div>
+        </div>
+       
+        
+    </div>
+  )
+}
+
+export default Meet

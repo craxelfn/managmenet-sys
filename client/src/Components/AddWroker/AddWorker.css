@@ -1,0 +1,17 @@
+.add-worker { 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+    width: 100% ;
+    margin-right: 20px;
+}
+
+.information{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+select{
+    border-radius: 5px;
+}
